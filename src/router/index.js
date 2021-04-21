@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import{ createApp } from 'vue'
-const app = createApp({})
-
+/*import{ createApp } from 'vue'
+const app = createApp({})*/
+/*
 // 路由自动化注册
 const requireComponent = require.context('@/modules', true, /\.vue$/) // 找到 modules 路径下的所有文件
 
@@ -29,8 +29,9 @@ const dynamic_route = requireComponent.keys().filter(fileName => {
     name: componentNameRe,
     component:Component
   }
+  console.log(result)
   return result
-})
+})*/
 
 const routes = dynamic_route
 
