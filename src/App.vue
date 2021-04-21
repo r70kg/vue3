@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
-
+    <!--全局自动注册组件使用-->
+    <projects-pages-Project></projects-pages-Project>
   </div>
   <router-view/>
 </template>
